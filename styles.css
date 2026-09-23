@@ -2,20 +2,21 @@
 
 body {
   font-family: "League Spartan", sans-serif;
+  background: url("/images/The.Royal.Tenenbaums.2001.jpg") center / cover
+    no-repeat fixed;
+}
 
-  background-image: url("/images/The.Royal.Tenenbaums.2001.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+html {
+  font-size: clamp(1rem, 0.9rem + 0.5vw, 1.25rem);
 }
 
 h1 {
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+  font-size: 2.5rem;
   color: #ef9de1;
+}
+
+p {
+  font-size: 1rem;
 }
 
 div {
@@ -98,7 +99,6 @@ div {
 
 .text-container h3 {
   display: flex;
-  width: 197px;
   height: 36px;
   padding: 12px 12px 4px 12px;
   flex-direction: column;
@@ -109,7 +109,6 @@ div {
 
 .text-container p {
   display: flex;
-  width: 197px;
   height: 30px;
   padding: 2px 12px 12px 12px;
   flex-direction: column;
