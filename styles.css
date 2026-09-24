@@ -2,17 +2,51 @@
 
 body {
   font-family: "League Spartan", sans-serif;
-  background: url("/images/The.Royal.Tenenbaums.2001.jpg") center / cover
-    no-repeat fixed;
+  background: url("/images/RTzebra.jpg") right / cover no-repeat fixed;
 }
 
 html {
   font-size: clamp(1rem, 0.9rem + 0.5vw, 1.25rem);
 }
 
-h1 {
-  font-size: 2.5rem;
-  color: #ef9de1;
+.hero {
+  position: relative;
+  min-height: clamp(280px, 64vh, 720px);
+  color: bisque;
+  background: url("/images/The.Royal.Tenenbaums.2001.jpg") center / cover
+    no-repeat;
+}
+
+.hero-credit {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  font-size: 1.5rem;
+  text-align: right;
+}
+
+.hero-title {
+  display: none;
+}
+
+@media (max-width: 1044px) {
+  .hero {
+    background-size: auto 140%;
+    background-position: center bottom;
+  }
+}
+
+@media (max-width: 639px) {
+  .hero {
+    min-height: 7rem;
+    padding: 1rem;
+    background-image: none;
+  }
+
+  .hero-title {
+    display: block;
+    text-align: center;
+  }
 }
 
 p {
