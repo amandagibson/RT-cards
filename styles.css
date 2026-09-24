@@ -21,7 +21,7 @@ html {
 
 body {
   font-family: "League Spartan", sans-serif;
-  background: url("/images/RTzebra.jpg") right / cover no-repeat fixed;
+  background: url("images/RTzebra.jpg") right / cover no-repeat fixed;
 }
 
 /* ==========================================================================
@@ -32,7 +32,7 @@ body {
   min-height: clamp(280px, 64vh, 720px);
   margin-bottom: clamp(0.8rem, 1vw, 1.25rem);
   color: var(--color-text-light);
-  background: url("/images/The.Royal.Tenenbaums.2001.jpg") center / cover
+  background: url("images/The.Royal.Tenenbaums.2001.jpg") center / cover
     no-repeat;
   border: var(--border-accent);
 }
